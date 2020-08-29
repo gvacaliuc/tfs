@@ -6,8 +6,8 @@
 //
 package io.github.gvacaliuc.example;
 
-import io.github.gvacaliuc.Client;
-import io.github.gvacaliuc.TdApi;
+import org.drinkless.tdlib.Client;
+import org.drinkless.tdlib.TdApi;
 
 import java.io.IOError;
 import java.io.IOException;

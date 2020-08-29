@@ -21,4 +21,5 @@ nixpkgs_git_repository(
 nixpkgs_package(
     name = "tdlib",
     repositories = { "nixpkgs": "@nixpkgs//:default.nix" },
+    nix_file = "//:tdlib.nix",
 )
