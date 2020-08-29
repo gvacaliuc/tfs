@@ -359,6 +359,11 @@ public final class Example {
             OrderedChat o = (OrderedChat) obj;
             return this.order == o.order && this.chatId == o.chatId;
         }
+
+        @Override
+        public int hashCode() {
+            return (int) (31 * this.order * this.chatId);
+        }
     }
 
     private static class DefaultHandler implements Client.ResultHandler {
